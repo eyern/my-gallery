@@ -1,40 +1,67 @@
-# Personal Gallery , 19/3/2019
-## Author
-#### **Naima Niyigena**
-## Description
+# Personal Gallery App
+#### A personal gallery application that one displays their photos for others to see.
+#### By **Ian Kipkoech**
 
-Independent project for this week, it is to develop a personal gallery application that you display your photos for others to see.
+## Behavior Driven Development
+* The program should display various photos:
 
-## BDD Specification
+     **Input Example**: On page load
 
-| Images     | Category      | Location |
-| ------------- |:-------------:| -----:|
-| This is where you can see all the images.| They should have different categories of images .| And also they should take different loactions.|
-| Image to be searched | Here you can find images through their category , which means you search by category. | Here also you filter images by location.|
+     **Output Example**: Pictures are displayed on the home page
+
+* The program should navigate to pages with photos for a specified location when a specific location is clicked:
+
+     **Input Example**: Click on **league** on the navigation bar
+
+     **Output Example**: Redirected to a page with photos taken in Rwanda
+
+* The program should navigate home page when home is clicked on the navbar:
+
+     **Input Example**: Click on **Home** on the navigation bar
+
+     **Output Example**: Redirected to the home page
+
+* The program should navigate to the searched category when a category is entered on the navigation search:
+
+    **Input Example**: Enter premiere league in the navigation search
+
+    **Output Example**: Redirected to the page with photos on premiere league category
 
 ## Setup/Installation Requirements
-* git clone: https://github.com/Naimar1/Personal-Gallery.git
-* cd Personal-Gallery
-* code . (if you are using visual studio)
-* atom .
-* run : python manage.py runserver
-* link to visit: https://personalgarelly.herokuapp.com/
+To start using this project use the following commands:
 
-## Known Bugs
-Hope that my codes is clear and understandable,
-There are no errors, by mistake if you find them please contact me for the below address.
+* `git clone https://github.com/eyern/my-gallery`
+* `cd gallery`
+* `atom .` or
+* `code . `(this is if Visual Studio Code is your preferred text editor)
+
+To run this program
+* run this command lines in your terminal:
+* `python manage.py runserver`
+* access the application on this localhost address `http://127.0.0.1:8000`
+
+## Prerequisites
+You need the following to work on the project:
+
+`-Python 3.6`
+
+`-Django 2.7`
+
+`-Pip`
+
+`-virtualenv`
+
+`-A text  Editor`
+
 
 ## Technologies Used
- * Python
+* HTML/CSS
+* Django
+* Bootstrap
+* Heroku
 
-## Support and contact details
+## License
+MIT License
 
-Don't hesitate to contact me if you get a confusion or any other question,suggestion etc
-* Tel:0788358969
-* email:naiglyme1@gmail.com
+Copyright (c) 2019 *Ian Kipkoech*
 
-
-### License
-
-* MIT License
-* Copyright (c) 2019 NAIMA NIYIGENA
