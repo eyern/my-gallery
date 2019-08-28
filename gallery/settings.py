@@ -27,7 +27,7 @@ MODE=config("MODE", default="dev")
 SECRET_KEY = 'jhd&p=fzi^75ntywf#1ccd$!634)!o#q%1k9!as%7$c)i_@iqt'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG', default=False, cast=bool)
+DEBUG = config('DEBUG', default=True, cast=bool)
 ALLOWED_HOSTS = []
 
 
