@@ -1,7 +1,7 @@
 config==0.4.2
 dj-database-url==0.5.0
 Django==1.11.17
-django-bootstrap4==0.0.8
+django-bootstrap3==0.0.8
 django-heroku==0.3.1
 gunicorn==19.9.0
 Pillow==6.1.0
